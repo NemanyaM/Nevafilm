@@ -1,0 +1,37 @@
+body {
+  width: 1020px;
+  min-height: 1300px;
+}
+.container {
+  width: 995px;
+}
+
+header {
+  min-height: 70px;
+}
+.icon {
+    border-top: 5px #0f2245 solid;
+    border-bottom: 5px #0f2245 solid;
+    width: 46px;
+    height: 19px;
+    cursor: pointer;
+    position: relative;
+    margin: -40px auto 0;
+    margin-left: 790px;
+}
+.icon:before {
+    content: '';
+    display: inline-block;
+    position: absolute;
+    top: 47%;
+    left: 0px;
+    width: 100%;
+    border-top: 5px #0f2245 solid;
+    margin-top: -2px;
+}
+header img {
+    width: 40px;
+    height: 40px;
+    margin-left: 8px;
+    margin-top: 8px;
+}
