@@ -256,7 +256,7 @@ figure .slider-slides-description {
 .mpe-school-programms-items a:hover {
   color: #32b0c0;
 }
-/**************************/
+/******THE END OF THE PAGE MPE-SCHOOL******/
 .news {
   width: 1080px;
   min-height: 560px;
@@ -398,6 +398,39 @@ figure .slider-slides-description {
   top: 32px;
   left: 18px;
 }
+
+/******PAGE CONTACTS-NEVA******/
+.contacts-form {
+  width: 235px;
+  box-sizing: border-box;
+  position: relative;
+  top: -180px;
+  left: -36px;
+}
+input {
+  width: 235px;
+  font-size: 18px;
+  border-radius: 8px;
+  margin-bottom: 9px;
+}
+textarea {
+  overflow: auto;
+  width: 235px;
+  border-radius: 8px;
+}
+.btn-default {
+  display: block;
+  width: 100px;
+  border-radius: 5px;
+  height: 31px;
+  background-color: #0f2647;
+  color: #ffffff;
+  text-decoration: none;
+  margin-top: 6px;
+  padding: 4px;
+  text-align: center;
+}
+/******THE END OF THE PAGE CONTACTS-NEVA******/
 footer {
   min-height: 500px;
 }
